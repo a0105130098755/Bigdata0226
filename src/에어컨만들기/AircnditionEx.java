@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class AirconditionerEx {
+public class AircnditionEx {
     private boolean powerOn;
     private int temperature;
     private boolean coolingOn;
@@ -12,7 +12,7 @@ public class AirconditionerEx {
     private int fanSpeed;
     private Timer timer;
 
-    public AirconditionerEx() {
+    public AircnditionEx() {
         this.powerOn = false;
         this.temperature = 25; // 초기 온도 설정
         this.coolingOn = false;
@@ -87,7 +87,7 @@ public class AirconditionerEx {
     }
 
     public static void main(String[] args) {
-        AirconditionerEx ac = new AirconditionerEx();
+        AircnditionEx ac = new AircnditionEx();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
